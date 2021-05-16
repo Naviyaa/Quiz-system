@@ -1,0 +1,82 @@
+body{
+	font-family: "ink journal", cursive, "sans-serif";
+	font-size: 1.35rem;
+	color: #003B70;
+	background-color: #DBEEFE;
+}
+
+h1{
+	text-transform: uppercase;
+	text-decoration: underline;	
+	font-size: 1.95em;
+}
+
+a{
+	text-decoration: none;
+	background-color: #DCFDE8;
+	color: #002202;
+	font-weight: bold;
+	border: 3px solid #002202;
+	padding: 1px 5px;
+}
+
+button{
+	font-family: "ink journal", cursive, "sans-serif";
+	font-size: 1.25rem;
+	color: #F2C3FD;
+	background-color: #340041;
+	border: 3px solid #F2C3FD;
+	padding: 2px 5px;
+}
+
+.res{
+	color: #9B0202;
+	border: 3px solid #9B0202;
+	background-color: #FEB3B3;
+	width: 50px;
+	margin: 0 auto;
+}
+
+header nav {
+    margin: 0 10px 10px 10px;
+    padding: 20px;
+    border-radius: 0 0 15px 15px;
+    color: #000000;
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 0;
+    right: 10px;
+    left: 10px;
+    z-index: 1000;
+    opacity: 0.7;
+}
+
+header nav a{
+    color: #FFFFFF;
+    background-color: #000000;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 100px;
+    text-decoration: none;
+}
+
+.error{
+	color: #FFFFFF;
+	background-color: #BF3F3F;
+}
+
+.success{
+	color: #FFFFFF;
+	background-color: #3FBF7F;
+}
+
+main{
+	margin-top: 100px;
+	text-align: center;
+}
+
+table, tr, td, th{
+	border: 2px solid #000000; 
+	padding: 10px;
+	margin: 0 auto;
+} 
